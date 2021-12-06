@@ -1,0 +1,19 @@
+[1205/204851.632:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[1205/204851.859:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[1206/093516.018:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093521.034:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093526.048:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093531.057:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093536.075:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093541.092:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093546.103:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093551.111:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093731.815:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093736.822:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093741.826:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093746.846:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/093751.861:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1206/222657.403:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
