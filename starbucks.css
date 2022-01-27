@@ -1,0 +1,90 @@
+h1{font-family: sedgwick ave;
+    
+    /*text-shadow: black;*/
+
+}
+h3{ text-decoration: dotted underline;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 550px;
+    text-shadow: 5px 5px 0px green;
+
+    color: black;}
+        p{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;}
+    #s1{
+        background-color: green;
+        margin-top: 100px;
+    }
+    .odd{
+        color: black;
+    }
+    #p3{
+        font-size: large;
+        font-style: italic;
+        float:inline-end;
+    }
+    nav{
+        border-style:solid;
+        padding: 50px;
+        text-align: center;
+       
+    }
+
+   #s4{
+       border-style: inset;
+       border-color: green;
+       padding: 30px;
+       margin-left: 30%;
+       margin-right: 30%;
+       margin-top:50px;
+   } 
+
+   body{
+       background-image: url(ddddd.JPG);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center;
+       background-size: cover;
+   }
+
+  a:link{
+      color:white;
+      background-color: black;
+      font-family: sedgwick ave;
+    
+  } 
+  a:visited{
+      color:rgb(145, 240, 3);
+  }
+  a:hover{
+      color:green;
+  }
+  a:active{
+      color: greenyellow;
+  }
+
+  button:hover{
+      color: black;
+      
+  }
+
+  li:nth-child(even){
+      background-color:rgb(42, 148, 42);
+  }
+  .fa-coffee{
+      color: black;
+  }
+
+  #im{
+      animation:myslide;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+  }
+
+  @keyframes myslide {
+      from{margin-left: 100%;}
+      to{margin-left: 0%;}
+      
+  }
