@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moreon CSS</title>
+    <style>
+        .container{
+            border:2px solid red;
+            background-color: seagreen;
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+
+        .btn{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-color: greenyellow;
+            padding: 10px;
+            border:none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 8px;
+            font-weight: bolder;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: hotpink;
+            background-color: indigo;
+            border:2px solid white;
+        }
+
+        a:visited{
+            color: blue;
+            background-color: cornflowerblue;
+        }
+
+        .navbar{
+            background-color: black;
+            color: white;
+            border-radius: 30px;
+        }
+
+        .navbar li{
+            float: left;
+            list-style: none;
+            text-decoration: none;
+            margin: 13px 20px;
+
+        }
+            
+
+        }
+
+        .navbar ul{
+            overflow: auto;
+        }
+        
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .search{
+            padding: 12px 20px;
+            text-align: end;
+        }
+
+        .navbar input{
+            border:2px solid black;
+            border-radius: 14px;
+            padding: 4px;
+            width: 120px;
+        }
+
+        .contain{
+            height: 344px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            flex-flow: row-reverse wrap;
+            justify-content: center;
+            justify-content: space-between;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .item{
+            width: 200px;
+            height: 100px;
+            background-color: tomato;
+            border: 2px solid lawngreen;
+            margin: 10px;
+            padding: 3px;
+
+        }
+
+        #item-1{
+
+        }
+
+        .box{
+            width: 170px;
+            height: 170px;
+            border: 2px solid black;
+
+        }
+
+        #box1{
+            position: relative;
+            top: 49px;
+            background-color: blueviolet;
+            z-index: 35;
+        }
+        #box2{
+            /*visibility: visible;*/
+            display: none;
+            background-color: greenyellow;
+        }
+        #box3{
+            background-color: red;
+            position: relative;
+            top:34px;
+            left: 24px;
+        }
+        #box4{
+            background-color: blue;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                <input type="text" name="seacrh" id="search" placeholder="Search for Any Item">
+                </div>
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="container" id="cont1">
+        <h3>Pseudo Selectors and Designing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque incidunt nobis maiores corrupti veritatis assumenda, iste praesentium necessitatibus magnam optio, quod reprehenderit repellat officiis atque ducimus. Porro, temporibus molestias?
+        <a href="index2.html" class="btn">Page2</a>   
+        <button class="btn">Contact Us</button>
+        </p>
+    </div>
+
+    <h4>THIS is FLEXBOX</h4>
+    <div class="contain">
+        <div class="item" id="item-1">First Box</div>
+        <div class="item" id="item-2">SEcond Box</div>
+        <div class="item" id="item-3">Third Box</div>
+        <div class="item" id="item-4">Fourth Box</div>
+        <div class="item" id="item-5">Fifth Box</div>
+        <div class="item" id="item-6">Sixth Box</div>
+    </div>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>
