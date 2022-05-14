@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        ol>li {
+            font-size: 25px;
+        }
+
+        #main_heading,
+        #todo_heading {
+            padding: 10px 0px;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: bolder;
+        }
+    </style>
+    <Script>
+        var arr = "";
+        function update_list() {
+            let temp = document.querySelector('input').value;
+            // console.log(temp);
+            if (temp != "") {
+
+                arr = arr + `<li>${temp}</li>`;
+                document.getElementById('send').innerHTML = arr;
+                // console.log(arr);
+                document.querySelector('input').value = '';
+            }
+        }
+        function clear_list() {
+            arr = "";
+            document.getElementById('send').innerHTML = "<li>Your list is currently empty</li>";
+        }
+    </Script>
+</head>
+
+<body>
+    <div id="main_box">
+        <span id="main_heading">Enter to update list</span>
+        <div id="input_div">
+            <input type="text" name="todo">
+        </div>
+        <div id="buttons">
+
+            <span class="button">
+                <button onclick="update_list()">Update</button>
+            </span>
+            <span class="button">
+                <button onclick="clear_list()">CLEAR</button>
+            </span>
+        </div>
+        <div id="display">
+            <span id="todo_heading">TO DO LIST</span>
+            <ol id="send">
+                <li>list is empty</li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>
